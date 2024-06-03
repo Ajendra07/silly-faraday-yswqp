@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 32px;
+
+  &__tab {
+    font-size: 14px;
+    opacity: 0.3;
+    padding-bottom: 4.5px;
+    cursor: pointer;
+  }
+
+  &__active {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 4.5px;
+    border-bottom: 2px solid #23cefd;
+    cursor: pointer;
+  }
+}

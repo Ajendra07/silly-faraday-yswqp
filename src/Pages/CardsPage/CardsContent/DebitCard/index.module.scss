@@ -1,0 +1,24 @@
+.container {
+  &__showCard {
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+    font-style: bold;
+    color: #01d167;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+    &__accordians {
+      width: 366px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+}

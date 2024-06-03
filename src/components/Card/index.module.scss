@@ -1,0 +1,65 @@
+.container {
+  padding: 28px;
+  background: #01d167;
+  width: 414px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  color: white;
+
+  &__logo {
+    margin-left: auto;
+    width: fit-content;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 27px;
+  }
+
+  &__cardNumber {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    margin-top: 27px;
+
+    &__hidden {
+      font-family: "text-security-disc";
+      -webkit-text-security: disc;
+      letter-spacing: 6px;
+    }
+
+    &__visible {
+      letter-spacing: 3.5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  &__expiryCvv {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin-top: 17px;
+    font-size: 13px;
+    line-height: 24px;
+
+    &__cvv {
+      display: flex;
+      flex-direction: align-items;
+      gap: 4.5px;
+
+      &__value {
+        font-size: 24px;
+        transform: translate(0, 5px);
+        letter-spacing: 2.5px;
+      }
+    }
+  }
+
+  &__visa {
+    margin-top: 4px;
+    width: fit-content;
+    margin-left: auto;
+  }
+}
